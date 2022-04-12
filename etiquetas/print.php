@@ -2,43 +2,43 @@
     <br>
     <table border="1" style="font-family: 'Oswald', sans-serif; font-size: 12px";>
         <tr>
-            <td colspan="2" style="text-align:center; font-size: 20px"><b>IT ASSET</b></td>
+            <td colspan="2" style="text-align:center; font-size: 20px"><b>IT CONTROL</b></td>
         </tr>
             <tr>
-                <th>EQUIPAMENTO</th>
+                <th>SETOR</th>
                 <td>
                     <?php
-                    $cod = $_POST['cod'];
-                    if (empty($cod)) {
+                    $setor = $_POST['setor'];
+                    if (empty($setor)) {
                         echo "Vazio";
                     } else {
-                        echo $cod;
+                        echo $setor;
                     }
                     ?>
                 </td>
             </tr>
             <tr>
-                <th>IP</th>
+                <th>RESPONSAVEL</th>
                 <td>
                     <?php
-                    $ip = $_POST['ip'];
-                    if (empty($ip)) {
+                    $resp = $_POST['resp'];
+                    if (empty($resp)) {
                         echo "Vazio";
                     } else {
-                        echo $ip;
+                        echo $resp;
                     }
                     ?>
                 </td>
             </tr>
             <tr>
-                <th>MAC</td>
+                <th>CONTEUDO</th>
                 <td>
                     <?php
-                    $mac = $_POST['mac'];
-                    if (empty($mac)) {
+                    $cont = $_POST['cont'];
+                    if (empty($cont)) {
                         echo "Vazio";
                     } else {
-                        echo $mac;
+                        echo $cont;
                     }
                     ?>
                 </td>

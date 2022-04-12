@@ -8,9 +8,9 @@
                 <li>
                     <a>
                         <form class="dados" action="etiquetas/print.php" method="post">
-                            <p>CÓDIGO DO PRODUTO: <input id="cod" type="text" name="cod" /></p>
-                            <p>IP: <input id="ip" type="text" name="ip" /></p>
-                            <p>MAC: <input id="mac" type="text" name="mac" /></p>
+                            <p>SETOR: <input id="setor" type="text" name="setor" /></p>
+                            <p>RESPONSÁVEL: <input id="resp" type="text" name="resp" /></p>
+                            <p>CONTEÚDO: <input id="cont" type="text" name="cont" /></p>
                             <p><input type="submit" /></p>
                         </form>
                     </a>
